@@ -1,0 +1,151 @@
+.panel .title {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.panel .content {
+    border-color: #b8daff;
+    border: 1px solid;
+    padding: 0px 5px 5px 5px;
+    border-top: none;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.task {
+    padding: 5px;
+    border: 1px solid;
+    margin-top: 5px;
+}
+
+.task.yellow {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #856404;
+}
+
+.task.black {
+    color: #383d41;
+    background-color: #e2e3e5;
+    border-color: #383d41;
+}
+
+.task.green {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #155724;
+}
+
+.task.red {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #721c24;
+}
+
+.task.blue {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #0c5460;
+}
+
+ul {
+    list-style: none;
+}
+
+.limit-date {
+    float: right;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.nice-alert, .danger-alert, .warning-alert {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.nice-alert {
+    background-color: green;
+}
+
+.danger-alert {
+    background-color: red;
+}
+
+.warning-alert {
+    background-color: orange;
+}
+
+.delete-button {
+    background-color: transparent;
+    border: 1px solid;
+    padding: 0px 2px;
+    line-height: 13px;
+    display: none;
+    transition: all 1s linear;
+}
+
+.drop {
+    float: right;
+    line-height: 11px;
+    background-color: transparent;
+    border: 1px solid;
+    font-size: 12px;
+    padding: 3px 3px 0 3px;
+}
+
+.dropdown {
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.dropdown-item:hover {
+    background-color: #cce5ff;
+}
+.box-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    display: inline-block;
+    border: 1px solid;
+}
+.box-blue {
+    background-color: #d1ecf1;
+    border-color: #0c5460;
+}
+.box-yellow {
+    background-color: #fff3cd;
+    border-color: #856404;
+}
+.box-black {
+    background-color: #e2e3e5;
+    border-color: #383d41;
+}
+.box-green {
+    background-color: #d4edda;
+    border-color: #155724;
+}
+.box-red {
+    background-color: #f8d7da;
+    border-color: #721c24;
+}
+h1 {
+    background-color: #4c6a9a;
+    color: #ffffff;
+    margin-top: 19px;
+    padding: 4px 0;
+    border-radius: 6px;
+}

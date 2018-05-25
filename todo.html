@@ -60,6 +60,46 @@
                     </div>
                     <div class="content">
                         <ul class="list-group" id="a-fazer">
+                            <li class="task green">
+                                <p>Tarefa 1</p>
+                                <i class="clearfix"></i>
+                                <button class="delete-button pull-left">
+                                    x
+                                </button>
+                                <div class="dropdown pull-right">
+                                    <button class="drop" type="button" 
+                                         id="dropdownMenuButton" 
+                                         data-toggle="dropdown" 
+                                         aria-haspopup="true" 
+                                         aria-expanded="false">
+                                         Mover
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" 
+                                                href="javascript:void(0)" 
+                                                data-list="a-fazer">
+                                                À Fazer
+                                            </a>
+                                            <a class="dropdown-item" 
+                                                href="javascript:void(0)" 
+                                                data-list="trabalhando"> 
+                                                Trabalhando
+                                            </a>
+                                            <a class="dropdown-item"
+                                                href="javascript:void(0)"
+                                                data-list="parado">
+                                                Parado
+                                            </a>
+                                            <a class="dropdown-item" 
+                                                href="javascript:void(0)" 
+                                                data-list="finalizado">
+                                                Finalizado
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -105,6 +145,10 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
-    
+    <script src="scripts.js"></script>
+  
+    <script>
+        teste();
+    </script>
 </body>
 </html>

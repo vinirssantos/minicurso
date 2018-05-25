@@ -1,0 +1,15 @@
+tarefa.innerHTML = '\
+        <p>'+texto+'</p>\
+        <span class="limit-date">Limite: '+data+'</span>\
+        <i class="clearfix"></i>\
+        <button class="pull-left delete-button" onClick="removeElemento(this)">x</button>\
+        <div class="dropdown pull-right">\
+            <button class="drop" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mover</button> \
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">\
+                <a class="dropdown-item" href="javascript:void(0)" onClick="moveTarefa(this, \'a-fazer\')" data-list="a-fazer">À Fazer</a>\
+                <a class="dropdown-item" href="javascript:void(0)" onClick="moveTarefa(this, \'trabalhando\')" data-list="trabalhando"> Trabalhando</a>\
+                <a class="dropdown-item" href="javascript:void(0)" onClick="moveTarefa(this, \'parado\')" data-list="parado">Parado</a>\
+                <a class="dropdown-item" href="javascript:void(0)" onClick="moveTarefa(this, \'finalizado\')" data-list="finalizado">Finalizado</a>\
+            </div>\
+        </div>\
+    ';
